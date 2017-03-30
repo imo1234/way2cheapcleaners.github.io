@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+
+.modal.fade {
+	top: -50% !important;
+}
+
+.modal.fade.in{
+	top: 25% !important;
+}
+
+#extraFormsContainer .formHolder{  margin:0 -282px; padding:10px; }
+.modal .fade .formHolder{margin-left:-280px;}
+
+@media (max-width: 767px) {
+    #emailContact_formModalForm.modal{width:80% !important; margin:0 auto !important;}
+    #extraFormsContainer .formHolder {margin:0 auto !important;}
+}
+
+#extraFormsContainer .modal{
+    z-index:-10;
+}
+.modal { position: absolute; }
+
+.rqrd{display:inline; color:#F00; margin:0 0 0 3px;}
+
+.formHolder .error{color:#F00;}
